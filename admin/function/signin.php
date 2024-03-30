@@ -1,6 +1,5 @@
 <?php
 
-
 include "connect.php";
 
 if(isset($_POST['submit'])){
@@ -19,9 +18,7 @@ if(isset($_POST['submit'])){
 
 			if($count > 0 ){
 
-
 			session_start();
-
 
 							if(($_POST['Remember']) == 1){ // Remember me radio WHEN login value 1
 
